@@ -57,7 +57,7 @@ def create_playlist(name):
       body=dict(
         snippet=dict(
           title=name,
-          description="Programmed by the God Programmer Bernardo, coauthor: Joao Pedro"
+          description="Programmed by the God Programmer Bernardo (github.com/hollics), coauthor: Joao Pedro"
         ),
         status=dict(
           privacyStatus="private"
