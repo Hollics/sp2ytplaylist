@@ -1,2 +1,5 @@
 # sp2ytplaylist
-program to transfer a spotify playlist to youtube playlist
+
+## ABOUT:
+> Program to choose which Spotify Playlist from your account you wish to convert to a Youtube Playlist
+
