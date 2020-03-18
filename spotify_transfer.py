@@ -87,13 +87,6 @@ def read_playlist(token, username):
         yt_playlist_id = ytplaylist.create_playlist(sp_playlist_name)
         ytinsert.send_to_ytplaylist(ytinsert.youtube, yt_playlist_id, musics_id_list)
 
-        # while tracks['next']:
-        #     print("comeco do while")
-        #     tracks = sp.next(tracks)
-        #     show_tracks(tracks)
-        #     print("fim do while")
-
-
 if __name__ == "__main__":
     read_playlist(token, username)
 else:
